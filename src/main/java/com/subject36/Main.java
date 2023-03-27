@@ -12,11 +12,10 @@ public class Main {
             }
         }
         System.out.println(map);
-        throw new IllegalArgumentException("No two sum solution");
     }
     public static void main(String[] args) {
         Integer[] arr = {1,8,7,2,3};
-        twoSum(1, arr);
+        twoSum(9, arr);
 
 
 
